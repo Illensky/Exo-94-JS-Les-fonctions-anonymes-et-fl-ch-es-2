@@ -10,8 +10,8 @@ function draw (array){
     body.appendChild(div)
 }
 
-let tableauUnDeu = tableauUn.map(item => item**item);
-draw(tableauUnDeu);
+let tableauUnDeux = tableauUn.map(item => item**item);
+draw(tableauUnDeux);
 let tableauUnTrois = tableauUn.map(item => item*10);
 draw(tableauUnTrois);
 let tableauUnQuatre = tableauUn.map(item => (item+2)/26);
